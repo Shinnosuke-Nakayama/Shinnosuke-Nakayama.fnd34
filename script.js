@@ -13,7 +13,7 @@ OK.addEventListener('click',()=>{
   let runner = document.getElementById('runner');
 
   for(i = 1; i <= entry; i++){
-    runner.insertAdjacentHTML('beforeend',  `<div id = line><img id="image" src="https://raw.githubusercontent.com/Shinnosuke-Nakayama/Shinnosuke-Nakayama.fnd34/6746e1b13a6ea222b5f0f550aa17257ba63d30a4/keiba_jockey1_black.png" width="100" height="100" alt="site-logo">${i}レーン</div>`)
+    runner.insertAdjacentHTML('beforeend',  `<div id = line><img id="image" src="https://shinnosuke-nakayama.github.io/Shinnosuke-Nakayama.fnd34/keiba_jockey1_white.png" width="100" height="100" alt="site-logo">${i}レーン</div>`)
   }
 
 });
