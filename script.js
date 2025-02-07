@@ -41,7 +41,7 @@ function intRandom(min, max){
     let y = i-1;
     let x = randoms[y]
 
-    memver.insertAdjacentHTML('beforeend',`<p><img id="image" src="https://github.com/Shinnosuke-Nakayama/Shinnosuke-Nakayama.fnd34/blob/main/${pattern[x]}.png" width="200" height="150" alt="site-logo"></p>`);
+    memver.insertAdjacentHTML('beforeend',`<p><img id="image" src="https://raw.githubusercontent.com/Shinnosuke-Nakayama/Shinnosuke-Nakayama.fnd34/refs/heads/main/${pattern[x]}.png" width="200" height="150" alt="site-logo"></p>`);
     // console.log(y);
     console.log(x);
 
