@@ -22,8 +22,8 @@ p {
 }
 
 .image {
-  width: 120px;
-  height: 80px;
+  width: 95px;
+  height: 65px;
   animation: slide-skew 0.4s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 
