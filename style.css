@@ -1,18 +1,41 @@
 .animation-area{
     margin-right: 80px;
-    margin-top: 20px;
+    margin-top: 5px;
   }
 
-  p{
-    border:solid 1px;
-    border-right: solid 5px;
-    /* background-color:rgba(87, 212, 38, 0.349); */
-  }
+.startCommnd {
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content:center;
+}  
 
-  a{
-    font-size: 30px;
-  }
+button {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-  h1{
-    text-align: center;
+p {
+   border:solid 1px;
+   border-right: solid 5px;
+   background-color:rgba(135, 137, 133, 0.349);
+}
+
+.image {
+  width: 120px;
+  height: 80px;
+  animation: slide-skew 0.4s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@keyframes slide-skew {
+  0% {
+    transform: translate(180px,30px);
+    opacity: 0;
   }
+  100% {
+    transform: translate(0,0);
+  }
+  20%,100% {
+    opacity: 1;
+  }
+}
