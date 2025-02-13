@@ -1,41 +1,40 @@
-.animation-area{
-    margin-right: 80px;
-    margin-top: 5px;
-  }
+html {
+    height: 95%;
+}
 
-.startCommnd {
+body {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.parent {
     display: flex;
-    flex-direction: row;
-    align-items:baseline;
-    justify-content:center;
-}  
-
-button {
-  margin-left: 10px;
-  margin-right: 10px;
+    height: 100%;
 }
 
-p {
-   border:solid 1px;
-   border-right: solid 5px;
-   background-color:rgba(135, 137, 133, 0.349);
+.A,.B {
+    width: 50%;
 }
 
-.image {
-  width: 95px;
-  height: 65px;
-  animation: slide-skew 0.4s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+.upper,.lower {
+    height: 50%;
 }
 
-@keyframes slide-skew {
-  0% {
-    transform: translate(180px,30px);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(0,0);
-  }
-  20%,100% {
-    opacity: 1;
-  }
+.halfLeft {
+    width: 98%;
+    height: 95%;
+}
+
+.upperRight,.lowerRight {
+    display: block;
+    width: 100%;
+    height: 90%;
+}
+
+.btn {
+    margin: 5px;
+    /* margin-right: 25px; */
 }
