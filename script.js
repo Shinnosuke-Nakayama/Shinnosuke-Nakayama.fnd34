@@ -5,7 +5,7 @@ const elB = document.querySelector(".B");
 const iflame1 = document.querySelector(".upper");
 const iflame2 = document.querySelector(".lower");
 const btn = document.querySelectorAll(".btn");
-const head = document.querySelector("h1");
+// const head = document.querySelector("h1");
 const upperRight = document.querySelector(".upperRight");
 const lowerRight = document.querySelector(".lowerRight");
 
@@ -16,7 +16,7 @@ function focus(event) {
     if (event.target.id === "1") {
         elA.style.width = "100%";
         elB.style.display = "none";
-        head.style.display = "none";
+        // head.style.display = "none";
 
     } else if (event.target.id === "2") {
         elA.style.display = "none";
@@ -25,7 +25,7 @@ function focus(event) {
         WindowGetClikc6.style.visibility = "hidden";
         elB.style.width = "100%";
         iflame1.style.height = "100%";
-        head.style.display = "none";
+        // head.style.display = "none";
         upperRight.style.height = "100%";
 
     } else if (event.target.id === "3") {
@@ -35,7 +35,7 @@ function focus(event) {
         WindowGetClikc5.style.visibility = "hidden";
         elB.style.width = "100%";
         iflame2.style.height = "100%";
-        head.style.display = "none";
+        // head.style.display = "none";
         lowerRight.style.height = "100%";
 
     }
@@ -50,7 +50,7 @@ function revert(event) {
         elA.style.width = "50%"
         elB.style.width = "50%";
         elB.style.display = "block"
-        head.style.display = "block";
+        // head.style.display = "block";
 
     } else if (event.target.id === "B") {
         elA.style.width = "50%"
@@ -60,7 +60,7 @@ function revert(event) {
         iflame2.style.display = "block"
         WindowGetClikc3.style.visibility = "visible";
         WindowGetClikc6.style.visibility = "visible";
-        head.style.display = "block";
+        // head.style.display = "block";
         upperRight.style.height = "90%"
 
     } else if (event.target.id === "C") {
@@ -71,7 +71,7 @@ function revert(event) {
         iflame1.style.display = "block"
         WindowGetClikc2.style.visibility = "visible";
         WindowGetClikc5.style.visibility = "visible";
-        head.style.display = "block";
+        // head.style.display = "block";
         lowerRight.style.height = "90%";
 
     }
