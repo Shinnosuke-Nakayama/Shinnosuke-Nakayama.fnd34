@@ -21,6 +21,7 @@ h1 {
 
 .upper,.lower {
     height: 50%;
+    background-color: aliceblue;
 }
 
 .upper {
