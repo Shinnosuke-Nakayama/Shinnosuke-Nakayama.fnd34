@@ -1,8 +1,9 @@
+
 'use strict'
 // 1行目に記載している 'use strict' は削除しないでください
 
-const start = document.getElementById("start"); // 開始ボタン
-const standby = document.getElementById("standby");//スタンバイボタン
+const start = document.getElementById("start");
+const standby = document.getElementById("standby");
 const cars = document.getElementById("cars");
 const carLineup = ["コンバイン", "トゥクトゥク", "ハイエース", "高所作業車", "消防車"];
 const steps = ["steps(100,start)", "steps(50,start)", "steps(25,start)", "steps(10,start)", "steps(5,start)"];
@@ -40,11 +41,11 @@ start.addEventListener("click", () => {
     image.animate(
       [
         { transform: "translateX(0)"}, 
-        { transform: "translateX(2000px)"}
+        { transform: "translateX(600px)"}
       ], 
       {
         fill: "backwards", 
-        duration: 5000 + (arrayOfRandomNum[index] * 500),
+        duration: 4000 + (arrayOfRandomNum[index] * 500),
         easing:steps[arrayOfRandomNum[index] - 1]
       },
     );
