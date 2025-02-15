@@ -1,5 +1,5 @@
 body {
-    background-color: blue;
+    background-color: rgb(2, 2, 139);
     color: white;
 }
 
@@ -22,6 +22,11 @@ p {
     margin: 1px;
 }
 
+ul {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
 .content {
     font-size: 22px;
     font-weight: bolder;
@@ -29,7 +34,3 @@ p {
     margin-top: 20px;
 }
 
-ul {
-    font-size: 18px;
-    font-weight: bolder;
-}
