@@ -1,14 +1,6 @@
-.animation-area{
-    margin-right: 80px;
-    margin-top: 5px;
-  }
-
-.startCommnd {
-    display: flex;
-    flex-direction: row;
-    align-items:baseline;
-    justify-content:center;
-}  
+body {
+  background-color: rgb(116, 80, 50);
+}
 
 button {
   margin-left: 10px;
@@ -18,9 +10,26 @@ button {
 p {
    border:solid 1px;
    border-right: solid 5px;
-   background-color:rgba(135, 137, 133, 0.349);
+   background-color:rgb(205, 208, 205);
    width: 600px;
 }
+
+span {
+  font-weight: bolder;
+  color: white;
+}
+
+.animation-area{
+    margin-right: 80px;
+    margin-top: 5px;
+  }
+
+.start-comamnd {
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content:center;
+}  
 
 .image {
   width: 95px;
