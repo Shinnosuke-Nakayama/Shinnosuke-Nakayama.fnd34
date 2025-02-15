@@ -9,48 +9,52 @@ const upperRight = document.querySelector(".upperRight");
 const lowerRight = document.querySelector(".lowerRight");
 
 function focus(event) {
-    if (event.target.id === "1") {
-        elA.style.width = "100%";
-        elB.style.display = "none";
-    } else if (event.target.id === "2") {
-        iflame2.style.display = "none"
-        WindowGetClikc3.style.visibility = "hidden";
-        WindowGetClikc6.style.visibility = "hidden";
-        elB.style.width = "100%";
-        iflame1.style.height = "100%";
-        upperRight.style.height = "95%";
-    } else if (event.target.id === "3") {
-        iflame1.style.display = "none"
-        WindowGetClikc2.style.visibility = "hidden";
-        WindowGetClikc5.style.visibility = "hidden";
-        elB.style.width = "100%";
-        iflame2.style.height = "100%";
-        lowerRight.style.height = "95%";
-    }
+  if (event.target.id === "1") {
+    elA.style.width = "100%";
+    elB.style.display = "none";
+
+  } else if (event.target.id === "2") {
+      iflame2.style.display = "none"
+      WindowGetClikc3.style.visibility = "hidden";
+      WindowGetClikc6.style.visibility = "hidden";
+      iflame1.style.height = "100%";
+      upperRight.style.height = "95%";
+
+  } else if (event.target.id === "3") {
+      iflame1.style.display = "none"
+      WindowGetClikc2.style.visibility = "hidden";
+      WindowGetClikc5.style.visibility = "hidden";
+      iflame2.style.height = "100%";
+      lowerRight.style.height = "95%";
+  }
 }
 
 function revert(event) {
-    if (event.target.id === "A") {
-        elA.style.width = "50%"
-        elB.style.width = "50%";
-        elB.style.display = "block"
-    } else if (event.target.id === "B") {
-        elA.style.width = "50%"
-        elB.style.width = "50%";
-        iflame1.style.height = "50%";
-        iflame2.style.display = "block"
-        WindowGetClikc3.style.visibility = "visible";
-        WindowGetClikc6.style.visibility = "visible";
-        upperRight.style.height = "85%"
-    } else if (event.target.id === "C") {
-        elA.style.width = "50%"
-        elB.style.width = "50%";
-        iflame2.style.height = "50%";
-        iflame1.style.display = "block"
-        WindowGetClikc2.style.visibility = "visible";
-        WindowGetClikc5.style.visibility = "visible";
-        lowerRight.style.height = "90%";
-    }
+  if (event.target.id === "A") {
+    elA.style.width = "50%"
+    elB.style.width = "50%";
+    elB.style.display = "block"
+
+  } else if (event.target.id === "B") {
+      elA.style.width = "50%"
+      elB.style.width = "50%";
+      iflame1.style.height = "50%";
+      elA.style.display = "block"
+      iflame2.style.display = "block"
+      WindowGetClikc3.style.visibility = "visible";
+      WindowGetClikc6.style.visibility = "visible";
+      upperRight.style.height = "85%"
+
+  } else if (event.target.id === "C") {
+      elA.style.width = "50%"
+      elB.style.width = "50%";
+      iflame2.style.height = "50%";
+      elA.style.display = "block"
+      iflame1.style.display = "block"
+      WindowGetClikc2.style.visibility = "visible";
+      WindowGetClikc5.style.visibility = "visible";
+      lowerRight.style.height = "90%";
+  }
 }
 
 const WindowGetClikc1 = document.querySelectorAll('input')[0];
