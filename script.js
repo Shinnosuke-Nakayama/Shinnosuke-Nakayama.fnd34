@@ -13,7 +13,6 @@ function focus(event) {
         elA.style.width = "100%";
         elB.style.display = "none";
     } else if (event.target.id === "2") {
-        elA.style.display = "none";
         iflame2.style.display = "none"
         WindowGetClikc3.style.visibility = "hidden";
         WindowGetClikc6.style.visibility = "hidden";
@@ -21,7 +20,6 @@ function focus(event) {
         iflame1.style.height = "100%";
         upperRight.style.height = "95%";
     } else if (event.target.id === "3") {
-        elA.style.display = "none";
         iflame1.style.display = "none"
         WindowGetClikc2.style.visibility = "hidden";
         WindowGetClikc5.style.visibility = "hidden";
@@ -40,7 +38,6 @@ function revert(event) {
         elA.style.width = "50%"
         elB.style.width = "50%";
         iflame1.style.height = "50%";
-        elA.style.display = "block"
         iflame2.style.display = "block"
         WindowGetClikc3.style.visibility = "visible";
         WindowGetClikc6.style.visibility = "visible";
@@ -49,7 +46,6 @@ function revert(event) {
         elA.style.width = "50%"
         elB.style.width = "50%";
         iflame2.style.height = "50%";
-        elA.style.display = "block"
         iflame1.style.display = "block"
         WindowGetClikc2.style.visibility = "visible";
         WindowGetClikc5.style.visibility = "visible";
