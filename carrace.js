@@ -6,7 +6,7 @@ const start = document.getElementById("start");
 const standby = document.getElementById("standby");
 const cars = document.getElementById("cars");
 const carLineup = ["コンバイン", "トゥクトゥク", "ハイエース", "高所作業車", "消防車", "パトカー", "救急車"];
-const steps = ["steps(100,start)", "steps(50,start)", "steps(25,start)", "steps(10,start)", "steps(5,start)"];
+const steps = ["steps(100,start)", "steps(50,start)", "steps(25,start)", "steps(10,start)", "steps(5,start)", "steps(150,start)", "steps(125,start)"];
 
 function intRandom(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -41,7 +41,7 @@ start.addEventListener("click", () => {
     image.animate(
       [
         { transform: "translateX(0)"}, 
-        { transform: "translateX(600px)"}
+        { transform: "translateX(650px)"}
       ], 
       {
         fill: "backwards", 
