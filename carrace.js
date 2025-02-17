@@ -5,7 +5,7 @@
 const start = document.getElementById("start");
 const standby = document.getElementById("standby");
 const cars = document.getElementById("cars");
-const carLineup = ["コンバイン", "トゥクトゥク", "ハイエース", "高所作業車", "消防車"];
+const carLineup = ["コンバイン", "トゥクトゥク", "ハイエース", "高所作業車", "消防車", "パトカー", "救急車"];
 const steps = ["steps(100,start)", "steps(50,start)", "steps(25,start)", "steps(10,start)", "steps(5,start)"];
 
 function intRandom(min, max) {
