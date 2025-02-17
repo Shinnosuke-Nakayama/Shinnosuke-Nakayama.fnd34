@@ -7,7 +7,7 @@ p {
     font-weight: bolder;
     color: white;
     margin-bottom: 20px;
-    font-size: 24px
+    font-size: 20px
 }
 
 #digital-board {
@@ -42,5 +42,5 @@ p {
 }
 
 span {
-    font-size: small;
+    font-size: smaller;
 }
